@@ -18,7 +18,7 @@ public class CalculadoraCientifica {
         double b = Double.parseDouble(s2);
         return Math.pow(a, b);
     }
-    public double potencia(int a, int b){
+    public double potencia(int a, Double b){
         return Math.pow(a, b);
     }
 
