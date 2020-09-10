@@ -2,6 +2,11 @@ public class Carro{
     private String cor;
     private int velocidade;
 
+    public Carro(String cor, int velocidade){
+        setCor(cor);
+        setVelocidade(velocidade);
+    }
+
     public void acelerar() {
         this.velocidade += 1;
     
