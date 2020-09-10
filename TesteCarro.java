@@ -4,8 +4,8 @@ public class TesteCarro {
         int velocidade = 0;
         String corAzul = "Azul";
         String corVermelha = "Vermelho";
-        Carro carroA = new Carro();
-        Carro carroB = new Carro();
+        Carro carroA = new Carro(corAzul,velocidade);
+        Carro carroB = new Carro(corVermelha,velocidade);
 
         carroA.setCor(corAzul);
         carroA.setVelocidade(velocidade);
