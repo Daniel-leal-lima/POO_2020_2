@@ -7,6 +7,12 @@ public class Oviparo extends Animal{
         setBotaOvos(botaOvos);
         setQtdOvos(qtdOvos);
     }
+    public Oviparo(String nome,int qtdPatas, String botaOvos, int qtdOvos) {
+        setNome(nome);
+        setQtdPatas(qtdPatas);
+        setBotaOvos(botaOvos);
+        setQtdOvos(qtdOvos);
+    }
 
     public int getQtdOvos() {
         return qtdOvos;
